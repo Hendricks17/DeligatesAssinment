@@ -26,7 +26,7 @@ class Program
 
         // 3. Predicate delegate returning a bool
         Predicate<string> startsWithA = s => s.StartsWith("A");
-        Console.WriteLine("Starts with A? " + startsWithA("Alice"));
+        Console.WriteLine("Starts with A? " + startsWithA("Bolu"));
 
         Console.WriteLine();
         Console.WriteLine();
